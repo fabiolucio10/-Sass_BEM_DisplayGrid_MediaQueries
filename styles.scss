@@ -1,0 +1,73 @@
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.card__subtitulo {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #BBB3E6;
+}
+
+.card__title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.card-grid__img {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.card-grid__texto {
+    position: relative;
+    z-index: 10;
+    margin-top: -117px !important;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.card-grid__button {
+    position: relative;
+    margin-top: -117px !important;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #090039;
+    background: #FFFFFF;
+    border-radius: 19px;
+    flex-wrap: nowrap;
+    width: 100px;
+    padding: 10px;
+}
+
+.Card-grid__elementos{
+    padding-left: 10%; 
+    position: relative; 
+}
+
